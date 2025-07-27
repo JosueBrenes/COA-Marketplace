@@ -5,7 +5,7 @@ export const featuredItems: ItemType[] = [
   {
     id: "item-1",
     name: "Nexus Power Gauntlet",
-    imageUrl: "/assets/1.jpg",
+    imageUrl: "/assets/1.png",
     price: 383,
     originalPrice: 450,
     discount: 15,
@@ -28,7 +28,7 @@ export const featuredItems: ItemType[] = [
   {
     id: "item-2",
     name: "Plasma Defender MK3",
-    imageUrl: "/assets/2.jpg",
+    imageUrl: "/assets/2.png",
     price: 280,
     rarity: "Epic",
     category: "Energy Weapons",
