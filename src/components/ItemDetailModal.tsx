@@ -29,7 +29,7 @@ export function ItemDetailModal({ item, isOpen, onClose, onAddToCart }: ItemDeta
     onClose()
   }
 
-  const StatBar = ({ label, value, icon: Icon }: { label: string; value: number; icon: any }) => (
+  const StatBar = ({ label, value, icon: Icon }: { label: string; value: number; icon: React.ComponentType<{ className?: string }> }) => (
     <div className="flex items-center gap-3">
       <Icon className="w-4 h-4 text-primary" />
       <div className="flex-1">

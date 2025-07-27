@@ -28,7 +28,7 @@ export const featuredItems: ItemType[] = [
   {
     id: "item-2",
     name: "Plasma Defender MK3",
-    imageUrl: "/assets/2.png",
+    imageUrl: "/assets/2.jpg",
     price: 280,
     rarity: "Epic",
     category: "Energy Weapons",

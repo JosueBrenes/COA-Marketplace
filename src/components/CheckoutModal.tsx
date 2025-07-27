@@ -21,9 +21,9 @@ interface PaymentMethod {
 }
 
 const paymentMethods: PaymentMethod[] = [
-  { id: 'credit', name: 'Credit Card', type: 'credit', icon: '💳', fee: 0.03 },
-  { id: 'bitcoin', name: 'Bitcoin', type: 'crypto', icon: '₿', fee: 0.01 },
-  { id: 'ethereum', name: 'Ethereum', type: 'crypto', icon: 'Ξ', fee: 0.015 },
+  { id: 'starknet-eth', name: 'Starknet ETH', type: 'crypto', icon: '⚡', fee: 0.005 },
+  { id: 'starknet-usdc', name: 'Starknet USDC', type: 'crypto', icon: '🪙', fee: 0.005 },
+  { id: 'starknet-usdt', name: 'Starknet USDT', type: 'crypto', icon: '💰', fee: 0.005 },
   { id: 'arcanis', name: 'Arcanis Credits', type: 'digital', icon: '🔮', fee: 0 },
 ]
 
